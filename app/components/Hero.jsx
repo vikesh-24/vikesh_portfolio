@@ -11,10 +11,10 @@ import { Mail } from 'lucide-react'
 export default function Hero() {
   const downloadResume = (event) => {
     event.preventDefault()
-    const resumeUrl = '/VIkeshResume.pdf'
+    const resumeUrl = '/PM Resume.pdf'
     const link = document.createElement('a')
     link.href = resumeUrl
-    link.download = 'Vikesh_Resume.pdf'
+    link.download = 'PM Resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -103,7 +103,7 @@ export default function Hero() {
               transition={{ duration: 0.3 }}
             >
               <Image
-                src="/images/dp.jpg"
+                src="/images/pic2.png"
                 alt="Vikesh"
                 fill
                 className="object-cover"

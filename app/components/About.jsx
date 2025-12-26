@@ -8,10 +8,10 @@ import Section from './Section'
 export default function About() {
   const downloadResume = (event) => {
     event.preventDefault()
-    const resumeUrl = '/VIkeshResume.pdf'
+    const resumeUrl = '/PM Resume.pdf'
     const link = document.createElement('a')
     link.href = resumeUrl
-    link.download = 'Vikesh_Resume.pdf'
+    link.download = 'PM Resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
